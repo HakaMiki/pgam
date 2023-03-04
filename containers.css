@@ -1,0 +1,405 @@
+body
+{
+	position: absolute;
+	margin: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: calc(100vw * 2 / 3);
+}
+
+div.container
+{
+	position: absolute;
+	box-shadow: inset 0 0 0 2px black;
+	margin: 0;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Main containers--------------------------------------------------*/
+#container-main {
+	width: 100%;
+	height: 100%;
+}
+
+#container-character {
+	width: 22%;
+	height: 82%;
+}
+
+#container-map {
+	width: 56%;
+	height: 66%;
+	left: 22%;
+}
+#container-log {
+	width: 56%;
+	height: 66%;
+	top: 22%;
+}
+
+#container-battle {
+	width: 78%;
+	height: 66%;
+	left: 22%;
+}
+
+#container-chatlarge {
+	width: 78%;
+	height: 100%;
+	left: 22%;
+}
+
+#container-info {
+	width: 78%;
+	height: 100%;
+	left: 22%;
+}
+
+#container-menu {
+	width: 22%;
+	height: 18%;
+	top: 82%;
+}
+
+#container-party {
+	width: 50%;
+	height: 34%;
+	left: 22%;
+	top: 66%;
+}
+
+#container-chat {
+	width: 28%;
+	height: 34%;
+	left: 72%;
+	top: 66%;
+}
+
+#container-actions {
+	width: 22%;
+	height: 66%;
+	left: 78%;
+}
+/* Level 1 containers--------------------------------------------------*/
+
+/* Characters---------------------*/
+#container-character-status {
+	width: 100%;
+	height: 50%;
+}
+
+#container-character-inventory {
+	width: 100%;
+	height: 50%;
+	top: 50%;
+}
+
+/* Map---------------------*/
+#container-map-main {
+	width: 100%;
+	height: 65%;
+	top: 35%;
+}
+
+#container-map-worldloc {
+	width: 20%;
+	height: 5%;
+}
+
+#container-map-string {
+	width: 80%;
+	height: 5%;
+	left: 20%;
+}
+
+#container-map-log {
+	width: 80%;
+	height: 30%;
+	top: 5%;
+	left: 20%;
+}
+
+#container-map-inspect {
+	width: 20%;
+	height: 30%;
+	top: 5%;
+}
+
+/* Map---------------------*/
+#container-map-log {
+	width: 80%;
+	height: 100%;
+	left: 20%;
+}
+
+#container-map-inspect {
+	width: 20%;
+	height: 100%;
+}
+
+#container-map-log {
+	width: 80%;
+	height: 30%;
+	top: 5%;
+	left: 20%;
+}
+
+#container-map-inspect {
+	width: 20%;
+	height: 30%;
+	top: 5%;
+}
+/* Battle---------------------*/
+#container-battle-opponents {
+	width: 35%;
+	height: 100%;
+}
+
+#container-battle-log {
+	width: 35%;
+	height: 100%;
+	left: 35%;
+}
+
+#container-battle-actions {
+	width: 30%;
+	height: 100%;
+	left: 70%;
+}
+
+/* Battle Actions-------*/
+#container-battle-actions-ghost1 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 0.5%;
+}
+
+#container-battle-actions-ghost2 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 10.5%;
+}
+
+#container-battle-actions-ghost3 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 20.5%;
+}
+
+#container-battle-actions-ghost4 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 30.5%;
+}
+
+#container-battle-actions-ghost5 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 40.5%;
+}
+
+#container-battle-actions-ghost6 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 50.5%;
+}
+
+#container-battle-actions-ghost7 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 60.5%;
+}
+
+#container-battle-actions-ghost8 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 70.5%;
+}
+
+#container-battle-actions-ghost9 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 80.5%;
+}
+
+#container-battle-actions-ghost10 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 90.5%;
+}
+
+/* Chatlarge---------------------*/
+#container-chatlarge-chattabs {
+	width: 80%;
+	height: 15%;
+}
+
+#container-chatlarge-pfp {
+	width: 20%;
+	height: 20%;
+	left: 80%;
+}
+
+#container-chatlarge-chatbox {
+	width: 100%;
+	height: 20%;
+	top: 80%;
+}
+
+/* Info---------------------*/
+
+/* Menu---------------------*/
+#container-menu-info {
+	width: 25%;
+	height: 50%;
+	top: 25%;
+	left: 12.5%;
+}
+
+/* Party---------------------*/
+#container-party-pet {
+	width: calc(100% / 3);
+	height: 50%;
+}
+
+#container-party-m1 {
+	width: calc(100% / 3);
+	height: 50%;
+	left: calc(100% / 3);
+}
+
+#container-party-m2 {
+	width: calc(100% / 3);
+	height: 50%;
+	left: calc(200% / 3);
+}
+
+#container-party-m3 {
+	width: calc(100% / 3);
+	height: 50%;
+	top: 50%;
+}
+
+#container-party-m4 {
+	width: calc(100% / 3);
+	height: 50%;
+	left: calc(100% / 3);
+	top: 50%;
+}
+
+#container-party-m5 {
+	width: calc(100% / 3);
+	height: 50%;
+	left: calc(200% / 3);
+	top: 50%;
+}
+
+/* Chat---------------------*/
+#container-chat-chattabs {
+	width: 100%;
+	height: 15%;
+}
+
+#container-chat-chatbox {
+	width: 100%;
+	height: 20%;
+	top: 80%;
+}
+
+#container-chat-chatlog {
+	width: 100%;
+	height: 65%;
+	top: 15%;
+}
+
+/* Actions---------------------*/
+#container-actions-ghost1 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 0.5%;
+}
+
+#container-actions-ghost2 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 10.5%;
+}
+
+#container-actions-ghost3 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 20.5%;
+}
+
+#container-actions-ghost4 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 30.5%;
+}
+
+#container-actions-ghost5 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 40.5%;
+}
+
+#container-actions-ghost6 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 50.5%;
+}
+
+#container-actions-ghost7 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 60.5%;
+}
+
+#container-actions-ghost8 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 70.5%;
+}
+
+#container-actions-ghost9 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 80.5%;
+}
+
+#container-actions-ghost10 {
+	width: 90%;
+	height: 9%;
+	left: 5%;
+	top: 90.5%;
+}
+
+/* info-----------------*/
+#container-info-content {
+	width: 100%;
+	height: 100%;
+}
